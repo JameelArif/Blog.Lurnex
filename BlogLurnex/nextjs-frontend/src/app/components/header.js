@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Header = () => {
   return (
-    <header className="fixed top-0 left-0 w-full h-[102px] bg-white shadow-md flex items-center justify-between px-8 z-10">
+    <header className="relative w-full h-[102px] bg-white shadow-md flex items-center justify-between px-8 z-10">
       {/* Logo */}
       <div className="text-3xl font-bold text-[#2DA9E1] font-['Quattrocento_Sans']">
         <Link href="/">Lurnex</Link>
