@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Header = () => {
   return (
-    <header className="relative w-full bg-white shadow-md px-[2vw] py-[1.2vw] z-10">
+    <header className="relative w-full bg-white shadow-md px-[2vw] py-[2vw] z-10">
       <div className="flex flex-wrap items-center justify-between gap-[1vw]">
         {/* Logo */}
         <div style={{ fontSize: 'clamp(14px, 4vw, 28px)' }} className="font-bold text-[#2DA9E1] font-['Quattrocento_Sans']">
