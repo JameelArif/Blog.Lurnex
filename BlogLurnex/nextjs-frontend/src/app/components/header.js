@@ -5,9 +5,21 @@ const Header = () => {
     <header className="relative w-full bg-white shadow-md px-[2vw] py-[2vw] z-10">
       <div className="flex flex-wrap items-center justify-between gap-[1vw]">
         {/* Logo */}
-        <div style={{ fontSize: 'clamp(14px, 4vw, 28px)' }} className="font-bold text-[#2DA9E1] font-['Quattrocento_Sans']">
-          <Link href="/">Lurnex</Link>
+
+
+
+        <div className="flex items-center">
+          <Link href="/">
+            <img
+              src="/logo.png"
+              alt="Lurnex Logo"
+              className="h-[clamp(16px,3vw,35px)] w-auto"
+            />
+          </Link>
         </div>
+
+
+
 
         {/* Navigation Links */}
         <nav className="flex flex-wrap justify-center items-center gap-[1.5vw]">
