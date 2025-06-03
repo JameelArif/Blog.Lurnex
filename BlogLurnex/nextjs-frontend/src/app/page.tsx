@@ -26,6 +26,7 @@ export default async function IndexPage() {
           </li>
         ))}
       </ul>
+      
     </main>
   );
 }
